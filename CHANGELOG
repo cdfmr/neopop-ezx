@@ -1,0 +1,17 @@
+The original core emulation code written by  neopop_uk  doesn't work on arm cpu,
+so I found a modified version for s60 written by  subbie  and used it in version
+0.01. The modified version works on e680i,  but unfortunately, there are several
+prolems with the S60 version. 1) subbie modified the core code to convert neogeo
+pocket color value to s60 color value because all of them are 4096 colors, which
+makes some games display with wrong color. 2) exceptions is removed from opcodes
+ADD, ADC, SUB & SBC, which makes graphics confused in some games, and raise seg-
+mentation fault in some games. 3) the changes of memory read and write  function
+cause that some games can't save battery states.
+
+In the second verion 0.02, I have restored most code to original, and keep these
+changes made by subbie.  1) speed up in parityB, parityW & DIV_B, DIV_W, DIVS_B,
+DIVS_W. (TLCS900h_interpret.c, it isn't important.) 2) byte alignment on 16 & 32
+bit read/write. (mem.c, it's very important, otherwise the emulator doesn't work
+on e680i.)
+
+nilnull at 126 dot com

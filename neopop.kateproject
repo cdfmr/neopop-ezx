@@ -1,0 +1,27 @@
+[Dir Core]
+Dirs=TLCS-900h/z80/docs
+Files=neopop.h/neopop.c/bios.c/bios.h/biosHLE.c/dma.c/dma.h/flash.c/flash.h/gfx.c/gfx.h/gfx_scanline_colour.c/gfx_scanline_mono.c/interrupt.c/interrupt.h/mem.c/mem.h/rom.c/sound.c/sound.h/state.c/state.h/Z80_interface.c/Z80_interface.h
+
+[Dir Core/TLCS-900h]
+Dirs=
+Files=TLCS900h_disassemble.c/TLCS900h_disassemble_dst.c/TLCS900h_disassemble_dst.o/TLCS900h_disassemble_extra.c/TLCS900h_disassemble_extra.o/TLCS900h_disassemble.h/TLCS900h_disassemble.o/TLCS900h_disassemble_reg.c/TLCS900h_disassemble_reg.o/TLCS900h_disassemble_src.c/TLCS900h_disassemble_src.o/TLCS900h_interpret.c/TLCS900h_interpret_dst.c/TLCS900h_interpret_dst.h/TLCS900h_interpret_dst.o/TLCS900h_interpret.h/TLCS900h_interpret.o/TLCS900h_interpret_reg.c/TLCS900h_interpret_reg.h/TLCS900h_interpret_reg.o/TLCS900h_interpret_single.c/TLCS900h_interpret_single.h/TLCS900h_interpret_single.o/TLCS900h_interpret_src.c/TLCS900h_interpret_src.h/TLCS900h_interpret_src.o/TLCS900h_registers.c/TLCS900h_registers.h/TLCS900h_registers_mapB.h/TLCS900h_registers_mapCodeB0.h/TLCS900h_registers_mapCodeB1.h/TLCS900h_registers_mapCodeB2.h/TLCS900h_registers_mapCodeB3.h/TLCS900h_registers_mapCodeL0.h/TLCS900h_registers_mapCodeL1.h/TLCS900h_registers_mapCodeL2.h/TLCS900h_registers_mapCodeL3.h/TLCS900h_registers_mapCodeW0.h/TLCS900h_registers_mapCodeW1.h/TLCS900h_registers_mapCodeW2.h/TLCS900h_registers_mapCodeW3.h/TLCS900h_registers_mapL.h/TLCS900h_registers_mapW.h/TLCS900h_registers.o
+
+[Dir Core/docs]
+Dirs=
+Files=bugs-core.html/changelog.txt/Memory Map.txt/source-readme.txt/todo.txt
+
+[Dir Core/z80]
+Dirs=
+Files=CodesCB.h/CodesED.h/Codes.h/CodesXCB.h/CodesXX.h/dasm.c/dasm.o/Tables.h/Z80.c/Z80.h/Z80.o
+
+[Dir System_E680]
+Dirs=
+Files=qemuthread.cpp/qemuthread.h/qmainapp.cpp/qmainapp.h/qmainwnd.cpp/qmainwnd.h/system_graphics.c/system_graphics.h/system_input.c/system_input.h/system_io.c/system_main.c/system_main.h/system_rom.c/system_rom.h/system_sound.c/system_sound.h
+
+[Project Dir]
+Dirs=System_E680/Core
+Files=Makefile/CHANGELOG/README
+
+[Project File]
+Name=neopop
+Type=Default

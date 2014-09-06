@@ -1,0 +1,68 @@
+* This file is encoded with UTF-8
+----------------------------------------------------------------
+
+NeoPop for Motorola E680(I) 0.02
+
+NeoPop is an NeoGeo Pocket emulator for  Motorola E680(I) phone,
+based on the excellent emulator  with the same name for  Windows
+written by neopop_uk.
+
+----------------------------------------------------------------
+
+History:
+
+0.02 (08-18-2005)
+
+	* fix some graphics error
+	  修正了一些图形错误
+	* improve the compatibility consumedly
+	  大大地提高了兼容度
+	* improve the stability
+	  稳定性有所提高
+	* should be a bit faster (still slow)
+	  稍许的提速 (依然很慢)
+
+0.01 (08-16-2005)
+
+	* support .ngc, .ngp, .npc & .zip roms
+	  支持 .ngc, .ngp, .npc 及 .zip 格式的 rom 文件
+	* a good graphic user interface
+	  友好的图形用户界面
+	* support full screen mode
+	  支持全屏模式
+	* take screen shot at anytime
+	  即时抓图
+	* support battery state
+	  电池存档
+	* save state at any time
+	  即时存档
+	
+	* no sound
+	  无声
+	* low speed
+	  低速
+	* low compatibility
+	  低兼容度
+	* low stability
+	  不够稳定
+
+----------------------------------------------------------------
+
+Usage:
+
+Put your roms in directory  /mmc/mmca1/Game/NGPRoms,  or you can
+edit neopop.conf to change the location.  The configuration file
+neopop.conf lies in the same directory of your installation.
+请将 ROM 文件放置在目录 /mmc/mmca1/Game/NGPRoms 中, 或者编辑配置
+文件 neopop.conf 修改 ROM 文件的搜索路径.  文件 neopop.conf 位于
+安装目录中.
+
+Click button "Help" to get key and button information.
+点击 "帮助" 按钮可获取按键与界面按钮的相关信息.
+
+----------------------------------------------------------------
+
+Author:
+
+neopop_uk: the neopop core emulation code
+nilnull (nilnull at 126 dot com): motorola e680(i) port
